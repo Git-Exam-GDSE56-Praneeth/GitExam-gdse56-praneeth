@@ -1,4 +1,4 @@
-package lk.exam.POS.model;
+package lk.exam.pos.model;
 
 /**
  * @auther Praneeth Geethanjana <geethanjana10@gmail.com>

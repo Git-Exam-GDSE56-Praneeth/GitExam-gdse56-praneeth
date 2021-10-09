@@ -1,4 +1,4 @@
-package lk.exam.POS.controller;
+package lk.exam.pos.controller;
 
 import lk.exam.POS.model.Item;
 import lk.exam.POS.utils.CrudUtil;
