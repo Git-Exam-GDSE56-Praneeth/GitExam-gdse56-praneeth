@@ -1,9 +1,9 @@
-package lk.exam.POS.controller;
+package lk.exam.pos.controller;
 
 import javafx.event.ActionEvent;
 import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
-import lk.exam.POS.model.Customer;
+import lk.exam.pos.model.Customer;
 
 import java.sql.SQLException;
 

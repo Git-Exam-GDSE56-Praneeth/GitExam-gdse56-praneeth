@@ -1,7 +1,7 @@
-package lk.exam.POS.controller;
+package lk.exam.pos.controller;
 
-import lk.exam.POS.model.Customer;
-import lk.exam.POS.utils.CrudUtil;
+import lk.exam.pos.model.Customer;
+import lk.exam.pos.utils.CrudUtil;
 
 import java.sql.SQLException;
 
