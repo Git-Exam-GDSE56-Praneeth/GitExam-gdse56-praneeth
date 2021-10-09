@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="466.0" prefWidth="406.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.exam.POS.controller.ItemSaveFormController">
+   <children>
+      <Label layoutX="91.0" layoutY="12.0" prefHeight="57.0" prefWidth="288.0" text="Save Item Form">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCode" layoutX="32.0" layoutY="108.0" prefHeight="31.0" prefWidth="299.0" promptText="ItemCode" />
+      <TextField fx:id="txtDes" layoutX="32.0" layoutY="171.0" prefHeight="31.0" prefWidth="299.0" promptText="Description" />
+      <TextField fx:id="txtUprice" layoutX="32.0" layoutY="233.0" prefHeight="31.0" prefWidth="299.0" promptText="Unit Price" />
+      <TextField fx:id="txtQty" layoutX="32.0" layoutY="291.0" prefHeight="31.0" prefWidth="299.0" promptText="Qty" />
+      <Button layoutX="72.0" layoutY="363.0" mnemonicParsing="false" onAction="#SaveItemOnAction" prefHeight="31.0" prefWidth="239.0" text="Save Item">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Separator layoutX="21.0" layoutY="68.0" prefHeight="3.0" prefWidth="376.0" />
+   </children>
+</AnchorPane>
