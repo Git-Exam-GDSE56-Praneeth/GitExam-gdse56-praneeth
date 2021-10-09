@@ -1,6 +1,6 @@
-package lk.exam.POS.utils;
+package lk.exam.pos.utils;
 
-import lk.exam.POS.db.DataBaseConnection;
+import lk.exam.pos.db.DataBaseConnection;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;

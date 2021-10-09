@@ -1,4 +1,4 @@
-package lk.exam.POS.db;
+package lk.exam.pos.db;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -9,7 +9,7 @@ import java.sql.SQLException;
  * @Since 10/9/2021
  */
 public class DataBaseConnection {
-    private static DataBaseConnection dataBaseConnection;
+    private static lk.exam.pos.db.DataBaseConnection dataBaseConnection;
     private Connection connection;
 
 
@@ -22,9 +22,9 @@ public class DataBaseConnection {
 
     }
 
-    public static DataBaseConnection getInstance() throws SQLException, ClassNotFoundException {
+    public static lk.exam.pos.db.DataBaseConnection getInstance() throws SQLException, ClassNotFoundException {
         if(dataBaseConnection ==null){
-            dataBaseConnection=new DataBaseConnection();
+            dataBaseConnection=new lk.exam.pos.db.DataBaseConnection();
         }
         return dataBaseConnection;
     }
